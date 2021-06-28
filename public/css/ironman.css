@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "RuneScape-Chat-07";
+    src: url('fonts/RuneScape-Chat-07.ttf');
+}
+
+a {
+    color: #90c040;
+}
+
+.content a {
+    color: #0000ff;
+}
+
+.content {
+    background: url('https://www.runescape.com/img/rsp777/scroll/backdrop_745.gif') repeat-y top center;
+    padding: 50px 75px;
+    position: relative;
+    /*margin: 10px 225px 25px;*/
+    margin: auto;
+    width: 765px;
+    /*border: 1px solid #4CAF50;*/
+    /*text-shadow: 1px 1px #000000;*/
+    color: black;
+    font-size: 120%;
+}
+
+.content:before,
+.content:after {
+    background: url('https://www.runescape.com/img/rsp777/scroll/backdrop_765_top.gif') no-repeat center top;
+    content: '';
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: -11px;
+    width: 100%
+}
+
+
+.content:after {
+    background: url('https://www.runescape.com/img/rsp777/scroll/backdrop_765_bottom.gif') no-repeat center bottom;
+    bottom: -11px;
+    top: auto
+}
+
+.top-nav {
+    width: 350px;
+    height: 50%;
+    margin: auto;
+}
+
+.top-nav-option {
+    background: black;
+    border: 2px solid #382418;
+    display: inline-block;
+    padding: 7px 15px;
+}
+
+.ironman-nav {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.ironman-nav-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ironman-nav-option {
+    background: black;
+    border: 2px solid #382418;
+    display: inline-block;
+    padding: 7px 15px;
+}
+
+.ironman-nav-option-current {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.note-box {
+    padding: 10px;
+    background-color: rgba(240, 227, 194, 0.18);
+    border: 2px solid #382418;
+    /*box-shadow: 0 0 3px #000;*/
+}
+
+.setup-box {
+    padding: 10px;
+    background-color: rgba(212, 197, 133, 0.22);
+    border: 2px solid #382418;
+    /*box-shadow: 0 0 3px #000;*/
+}
+
+.hardcore-box {
+    /*color: #853f3d;*/
+    color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.18);
+    border: 2px solid #382418;
+    /*box-shadow: 0 0 3px #000;*/
+}
+
+h3 {
+    text-align: center;
+    color:
+        /*#90c040;*/
+        #7B4F17;
+    font-weight: bold;
+    text-shadow: 1px #000000;
+}
+
+h4 {
+    text-align: center;
+    color:
+        /*#90c040;*/
+        #7B4F17;
+    font-weight: bold;
+    text-shadow: 1px #000000;
+}
+
+li {
+    margin: 6px 0;
+}
+
+h5,
+h4,
+h2,
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: "RuneScape-Chat-07";
+    background-color: black;
+    color: yellow;
+    line-height: 1;
+    font-size: 100%;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+label {
+    margin-left: 21px;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    padding-left: 100px;
+    height: 19px;
+}
+
+/* Labels for checked inputs */
+input:checked + label {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+img {
+    text-indent: 10px;
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 2px;
+    padding-bottom: 5px;
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+img:active {
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    transform: scale(2.5);
+    transform -webkit-transform: scale(2.5);
+    z-index: 1;
+}
